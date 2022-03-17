@@ -33,7 +33,7 @@ function RegisterSelectChangeEvent(id){
 
 function CreateSelect(id,num=0){
 	
-	for (var x=num+1; x<5; x++){
+	for (var x=num+1; x<16; x++){
 		$("#ddl" + x).remove();
 		console.log("#ddl" + x);
 	} 
